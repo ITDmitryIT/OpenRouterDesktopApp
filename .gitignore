@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# Секреты
+.env
+.env.local
+
+# База данных / кэш
+*.db
+cache/
+
+# Экспорт
+exports/*.json
+
+# Flet / сборка
+.flet/
+build/
